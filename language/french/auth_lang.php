@@ -31,6 +31,9 @@ $lang['login_remember_label']  = 'Rester connecté :';
 $lang['login_submit_btn']      = 'Se connecter';
 $lang['login_forgot_password'] = 'Mot de passe oublié ?';
 
+// Logout
+$lang['logout_link']           = 'Se déconnecter';
+
 // Index
 $lang['index_heading']           = 'Utilisateurs';
 $lang['index_subheading']        = 'Ci-dessous se trouve la liste des utilisateurs.';
