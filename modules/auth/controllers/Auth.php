@@ -1,10 +1,10 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends MX_Controller {
-        // attr.
-        private $data; // fix for HMVC
+    // attr.
+    private $data; // fix for HMVC
 
-        // constr.
+    // constr.
 	public function __construct()
 	{
 		parent::__construct();
@@ -813,9 +813,6 @@ class Auth extends MX_Controller {
 	{
 
 		$this->viewdata = (empty($data)) ? $this->data: $data;
-                
-                // fix view name for HMVC
-                $view = substr($view, 0, 1) === '/' ? $view : '/'.$view;
 
 		$view_html = $this->load->view($view, $this->viewdata, $returnhtml);
 
