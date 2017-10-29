@@ -63,7 +63,7 @@ class Ion_auth
 
 		$this->load->library('session');
 
-		$this->load->model('Ion_auth_model', 'ion_auth_model'); // fix for HMVC
+		$this->load->model('auth/Ion_auth_model', 'ion_auth_model'); // fix for HMVC
 
 		$this->_cache_user_in_group =& $this->ion_auth_model->_cache_user_in_group;
 	
